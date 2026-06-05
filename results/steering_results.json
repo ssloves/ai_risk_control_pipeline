@@ -1,0 +1,47 @@
+{
+  "config": {
+    "model": "tinygpt",
+    "seed": 0,
+    "beta": 10.0,
+    "steer_scale": 7.0,
+    "inj_layer": 1,
+    "steer_layer": 1,
+    "n_layers": 4,
+    "hidden_dim": 128,
+    "final_loss": 0.6966
+  },
+  "axes": {
+    "deception": {
+      "baseline_alignment": 0.4103,
+      "perturbed_alignment": -1.1554,
+      "steered_alignment": -0.0551,
+      "drift": 1.5657,
+      "recovered": 1.1003,
+      "ARR_pct": 70.3
+    },
+    "power_seeking": {
+      "baseline_alignment": 0.8826,
+      "perturbed_alignment": -0.6145,
+      "steered_alignment": 0.4391,
+      "drift": 1.4971,
+      "recovered": 1.0536,
+      "ARR_pct": 70.4
+    },
+    "honesty": {
+      "baseline_alignment": 1.1173,
+      "perturbed_alignment": -0.4239,
+      "steered_alignment": 0.6736,
+      "drift": 1.5412,
+      "recovered": 1.0975,
+      "ARR_pct": 71.2
+    },
+    "harmlessness": {
+      "baseline_alignment": 0.47,
+      "perturbed_alignment": -0.8667,
+      "steered_alignment": 0.0764,
+      "drift": 1.3366,
+      "recovered": 0.943,
+      "ARR_pct": 70.6
+    }
+  }
+}

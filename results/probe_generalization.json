@@ -1,0 +1,32 @@
+{
+  "config": {
+    "model": "tinygpt",
+    "seed": 0,
+    "beta": 10.0,
+    "steer_scale": 7.0,
+    "inj_layer": 1,
+    "steer_layer": 1,
+    "n_layers": 4,
+    "hidden_dim": 128,
+    "final_loss": 0.6966
+  },
+  "leave_one_pair_out_accuracy_pct": {
+    "deception": {
+      "mean": 66.7,
+      "std": 31.2
+    },
+    "power_seeking": {
+      "mean": 62.5,
+      "std": 21.7
+    },
+    "honesty": {
+      "mean": 62.5,
+      "std": 21.7
+    },
+    "harmlessness": {
+      "mean": 62.5,
+      "std": 29.8
+    }
+  },
+  "note": "held-out accuracy = probe built without each pair, classifying that unseen pair"
+}
